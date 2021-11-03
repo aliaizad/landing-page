@@ -1,10 +1,35 @@
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header{
     display: flex;
     background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 13%;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.head-links{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
