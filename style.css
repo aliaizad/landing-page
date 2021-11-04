@@ -131,7 +131,6 @@ button:hover{
 .quote{
     font-size: 36px;
     font-style: italic;
-    flex-shrink: 0;
 }
 
 .source{
@@ -166,4 +165,13 @@ button:hover{
 #clabold{
     font-size: 18px;
     font-weight: 700;
+}
+
+.footer{
+    display: flex;
+    background-color: #393232;
+    justify-content: center;
+    align-items: center;
+    color: #F2EDD7;
+    padding: 20px 13%;
 }
