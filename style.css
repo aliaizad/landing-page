@@ -123,7 +123,7 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     background-color: #ede6c8;
-    color: #0D1B2A;
+    color: #3A6351;
     padding: 80px 13%;
     gap: 15px;
 }
@@ -139,4 +139,31 @@ button:hover{
     font-weight: 1000;
     text-align: left;
     margin-left: 10px;
+}
+
+.box-4{
+    display: flex;
+    align-items: center;
+    padding: 80px 13%;
+    background-color: #F2EDD7;
+    justify-content: space-evenly;
+}
+
+.greenbox{
+    display: flex;
+    gap: 150px;
+    background-color: #3A6351;
+    color: #F2EDD7;
+    padding: 35px 253px;
+    border-radius: 12px;
+}
+.cla-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#clabold{
+    font-size: 18px;
+    font-weight: 700;
 }
