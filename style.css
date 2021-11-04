@@ -56,7 +56,7 @@ a,
 
 button{
     font-size: 16px;
-    padding: 5px 25px;
+    padding: 10px 25px;
     color: #F2EDD7;
     font-weight: 300;
     background-color: #3A6351;
@@ -78,10 +78,11 @@ button:hover{
 }
 
 .box-2 div img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 3px solid #3A6351;
     border-radius: 12px;
+    padding: 25px;
 }
 
 .box-2{
@@ -102,7 +103,7 @@ button:hover{
 
 .container{
     display: flex;
-    gap: 50px;
+    gap: 70px;
 }
 
 .phototext{
